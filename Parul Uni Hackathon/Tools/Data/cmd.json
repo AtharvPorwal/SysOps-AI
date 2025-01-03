@@ -1,0 +1,1822 @@
+[
+    {
+        "command": "Get-ACL",
+        "description": "Gets the access control list (ACL) for a resource.",
+        "usage": "Get-ACL -Path [path]",
+        "details": "Retrieves the security descriptor for a specified resource, such as a file or registry key."
+    },
+    {
+        "command": "Set-ACL",
+        "description": "Sets the access control list (ACL) for a resource.",
+        "usage": "Set-ACL -Path [path] -AclObject [acl]",
+        "details": "Applies a security descriptor to a specified resource."
+    },
+    {
+        "command": "Get-Process",
+        "description": "Gets the processes that are running on the local computer or a remote computer.",
+        "usage": "Get-Process [options]",
+        "details": "Retrieves information about active processes, such as CPU and memory usage."
+    },
+    {
+        "command": "Stop-Process",
+        "description": "Stops one or more running processes.",
+        "usage": "Stop-Process -Name [processname] -Force",
+        "details": "Terminates specified processes by name or ID. The `-Force` parameter forces termination."
+    },
+    {
+        "command": "Start-Process",
+        "description": "Starts one or more processes on the local computer.",
+        "usage": "Start-Process -FilePath [path] [options]",
+        "details": "Launches applications or scripts with optional parameters and window styles."
+    },
+
+    {
+        "command": "Start-Service",
+        "description": "Starts a stopped service.",
+        "usage": "Start-Service -Name [servicename]",
+        "details": "Initiates the specified Windows service."
+    },
+    {
+        "command": "Stop-Service",
+        "description": "Stops a running service.",
+        "usage": "Stop-Service -Name [servicename]",
+        "details": "Terminates the specified Windows service."
+    },
+    {
+        "command": "Restart-Service",
+        "description": "Stops and then starts one or more services.",
+        "usage": "Restart-Service -Name [servicename]",
+        "details": "Reloads the specified Windows service by restarting it."
+    },
+    {
+        "command": "Get-EventLog",
+        "description": "Gets the events in the event log on the local or remote computers.",
+        "usage": "Get-EventLog -LogName [logname] [options]",
+        "details": "Retrieves entries from Windows event logs for analysis or monitoring."
+    },
+    {
+        "command": "Clear-EventLog",
+        "description": "Deletes all entries from specified event logs.",
+        "usage": "Clear-EventLog -LogName [logname]",
+        "details": "Removes all events from the specified Windows event log."
+    },
+    {
+        "command": "Write-EventLog",
+        "description": "Writes an event to an event log.",
+        "usage": "Write-EventLog -LogName [logname] -Source [source] -EntryType [type] -EventId [id] -Message [message]",
+        "details": "Creates a new event entry in the specified Windows event log."
+    },
+    {
+        "command": "Get-ChildItem",
+        "description": "Gets the child items in one or more specified locations.",
+        "usage": "Get-ChildItem -Path [path] [options]",
+        "details": "Lists files and directories within a specified directory. Similar to `dir` in Command Prompt."
+    },
+    {
+        "command": "Copy-Item",
+        "description": "Copies an item from one location to another.",
+        "usage": "Copy-Item -Path [source] -Destination [destination] [options]",
+        "details": "Duplicates files or directories to a new location with optional parameters for recursion and force."
+    },
+    {
+        "command": "Move-Item",
+        "description": "Moves an item from one location to another.",
+        "usage": "Move-Item -Path [source] -Destination [destination] [options]",
+        "details": "Relocates files or directories to a new path, optionally overwriting existing items."
+    },
+    {
+        "command": "Remove-Item",
+        "description": "Deletes files and folders.",
+        "usage": "Remove-Item -Path [path] [options]",
+        "details": "Deletes specified files or directories. Use `-Recurse` to remove all items in a directory."
+    },
+    {
+        "command": "New-Item",
+        "description": "Creates a new item, such as a file or directory.",
+        "usage": "New-Item -Path [path] -ItemType [type] [options]",
+        "details": "Generates new files, folders, registry keys, or other items based on the specified type."
+    },
+    {
+        "command": "Get-Content",
+        "description": "Gets the content of the item at the specified location.",
+        "usage": "Get-Content -Path [path] [options]",
+        "details": "Reads the content of files or other data streams. Supports reading line by line."
+    },
+    {
+        "command": "Set-Content",
+        "description": "Writes or replaces the content in an item with new content.",
+        "usage": "Set-Content -Path [path] -Value [value] [options]",
+        "details": "Overwrites the content of a file or data stream with specified data."
+    },
+    {
+        "command": "Add-Content",
+        "description": "Adds content to the end of a file.",
+        "usage": "Add-Content -Path [path] -Value [value] [options]",
+        "details": "Appends data to an existing file without overwriting existing content."
+    },
+    {
+        "command": "Get-Item",
+        "description": "Gets the item at the specified location.",
+        "usage": "Get-Item -Path [path]",
+        "details": "Retrieves a single item, such as a file or registry key, from a specified path."
+    },
+    {
+        "command": "Set-Item",
+        "description": "Changes the value of an item to the value specified in the command.",
+        "usage": "Set-Item -Path [path] -Value [value]",
+        "details": "Modifies the value of a specified item, such as a file property or registry key."
+    },
+    {
+        "command": "Test-Path",
+        "description": "Determines whether all elements of a path exist.",
+        "usage": "Test-Path -Path [path]",
+        "details": "Returns a Boolean value indicating the existence of the specified path."
+    },
+    {
+        "command": "New-ItemProperty",
+        "description": "Creates a new property for an item and sets its value.",
+        "usage": "New-ItemProperty -Path [path] -Name [name] -Value [value] -PropertyType [type]",
+        "details": "Adds a new property to a file, registry key, or other objects with specified type and value."
+    },
+    {
+        "command": "Remove-ItemProperty",
+        "description": "Deletes a property from an item.",
+        "usage": "Remove-ItemProperty -Path [path] -Name [name]",
+        "details": "Removes a specific property from a file, registry key, or other objects."
+    },
+    {
+        "command": "Get-Help",
+        "description": "Gets help about cmdlets and concepts.",
+        "usage": "Get-Help [cmdlet] [options]",
+        "details": "Provides detailed information and examples for PowerShell cmdlets and topics."
+    },
+    {
+        "command": "Get-Command",
+        "description": "Gets all commands available in the session.",
+        "usage": "Get-Command [options]",
+        "details": "Lists all cmdlets, functions, workflows, aliases, and scripts available for use."
+    },
+    {
+        "command": "Get-Alias",
+        "description": "Gets the aliases for the current session.",
+        "usage": "Get-Alias [options]",
+        "details": "Displays a list of all defined aliases and their corresponding cmdlets."
+    },
+    {
+        "command": "Set-Alias",
+        "description": "Creates or changes an alias.",
+        "usage": "Set-Alias -Name [alias] -Value [cmdlet]",
+        "details": "Defines a new alias or modifies an existing one for a cmdlet or executable."
+    },
+    {
+        "command": "Export-Csv",
+        "description": "Converts objects into a series of comma-separated values (CSV) and saves them in a CSV file.",
+        "usage": "Export-Csv -Path [path] -InputObject [object] [options]",
+        "details": "Used to export data from PowerShell objects to a CSV file for analysis or reporting."
+    },
+    {
+        "command": "Import-Csv",
+        "description": "Creates table-like custom objects from the items in a CSV file.",
+        "usage": "Import-Csv -Path [path] [options]",
+        "details": "Imports data from a CSV file into PowerShell objects for manipulation or processing."
+    },
+    {
+        "command": "ConvertTo-Json",
+        "description": "Converts an object to a JSON-formatted string.",
+        "usage": "ConvertTo-Json -InputObject [object] [options]",
+        "details": "Transforms PowerShell objects into JSON for data interchange or storage."
+    },
+    {
+        "command": "ConvertFrom-Json",
+        "description": "Converts a JSON-formatted string to a custom PowerShell object.",
+        "usage": "ConvertFrom-Json -InputObject [json]",
+        "details": "Parses JSON data into PowerShell objects for further manipulation."
+    },
+    {
+        "command": "Get-Content",
+        "description": "Gets the content of the item at the specified location.",
+        "usage": "Get-Content -Path [path] [options]",
+        "details": "Reads the content of files or other data streams. Supports reading line by line."
+    },
+    {
+        "command": "Set-Content",
+        "description": "Writes or replaces the content in an item with new content.",
+        "usage": "Set-Content -Path [path] -Value [value] [options]",
+        "details": "Overwrites the content of a file or data stream with specified data."
+    },
+    {
+        "command": "Add-Content",
+        "description": "Adds content to the end of a file.",
+        "usage": "Add-Content -Path [path] -Value [value] [options]",
+        "details": "Appends data to an existing file without overwriting existing content."
+    },
+    {
+        "command": "Get-ItemProperty",
+        "description": "Gets the properties of an item.",
+        "usage": "Get-ItemProperty -Path [path] [options]",
+        "details": "Retrieves properties of files, registry keys, or other objects."
+    },
+    {
+        "command": "Set-ItemProperty",
+        "description": "Sets the value of a property of an item.",
+        "usage": "Set-ItemProperty -Path [path] -Name [name] -Value [value]",
+        "details": "Modifies the value of a specific property for a file, registry key, or other object."
+    },
+    {
+        "command": "New-PSDrive",
+        "description": "Creates a new PowerShell drive.",
+        "usage": "New-PSDrive -Name [drive] -PSProvider [provider] -Root [path] [options]",
+        "details": "Maps a new drive letter or name to a data store, such as a file system or registry."
+    },
+    {
+        "command": "Remove-PSDrive",
+        "description": "Deletes a PowerShell drive.",
+        "usage": "Remove-PSDrive -Name [drive]",
+        "details": "Removes a previously created PowerShell drive."
+    },
+    {
+        "command": "Get-PSDrive",
+        "description": "Gets the drives in the current session.",
+        "usage": "Get-PSDrive [options]",
+        "details": "Lists all PowerShell drives, including filesystem, registry, and others."
+    },
+    {
+        "command": "Get-Variable",
+        "description": "Gets the value of a variable.",
+        "usage": "Get-Variable -Name [name] [options]",
+        "details": "Retrieves the value and properties of PowerShell variables."
+    },
+    {
+        "command": "Set-Variable",
+        "description": "Sets the value of a variable.",
+        "usage": "Set-Variable -Name [name] -Value [value] [options]",
+        "details": "Creates or modifies the value of a PowerShell variable."
+    },
+    {
+        "command": "Remove-Variable",
+        "description": "Deletes a variable.",
+        "usage": "Remove-Variable -Name [name] [options]",
+        "details": "Removes a specified PowerShell variable from the session."
+    },
+    {
+        "command": "Get-Date",
+        "description": "Gets the current date and time.",
+        "usage": "Get-Date [options]",
+        "details": "Retrieves the current system date and time, with options for formatting."
+    },
+    {
+        "command": "Set-Date",
+        "description": "Sets the system date and time.",
+        "usage": "Set-Date -Date [datetime]",
+        "details": "Modifies the system's date and time settings."
+    },
+    {
+        "command": "Get-History",
+        "description": "Gets the command history.",
+        "usage": "Get-History [options]",
+        "details": "Retrieves a list of commands entered during the current PowerShell session."
+    },
+    {
+        "command": "Invoke-History",
+        "description": "Runs commands from the session history.",
+        "usage": "Invoke-History -Id [id]",
+        "details": "Executes a command from the history based on its ID."
+    },
+    {
+        "command": "Clear-History",
+        "description": "Clears the session history.",
+        "usage": "Clear-History [options]",
+        "details": "Deletes the list of previously entered commands in the current session."
+    },
+    {
+        "command": "Get-PSProvider",
+        "description": "Gets the available providers in the current session.",
+        "usage": "Get-PSProvider",
+        "details": "Lists all PowerShell providers, such as FileSystem, Registry, etc."
+    },
+    {
+        "command": "Import-Module",
+        "description": "Adds one or more modules to the current session.",
+        "usage": "Import-Module -Name [module] [options]",
+        "details": "Loads a PowerShell module, making its cmdlets and functions available."
+    },
+    {
+        "command": "Export-ModuleMember",
+        "description": "Specifies which functions and variables to export from a module.",
+        "usage": "Export-ModuleMember -Function [functions] -Variable [variables]",
+        "details": "Controls the visibility of module components to users."
+    },
+    {
+        "command": "New-Module",
+        "description": "Creates a new PowerShell module.",
+        "usage": "New-Module -ScriptBlock { commands } [options]",
+        "details": "Defines a new module containing cmdlets, functions, and variables."
+    },
+    {
+        "command": "Get-Module",
+        "description": "Gets the modules that are loaded in the current session.",
+        "usage": "Get-Module [options]",
+        "details": "Lists all currently loaded PowerShell modules."
+    },
+    {
+        "command": "Remove-Module",
+        "description": "Removes a module from the current session.",
+        "usage": "Remove-Module -Name [module]",
+        "details": "Unloads a specified PowerShell module, freeing up resources."
+    },
+    {
+        "command": "New-Object",
+        "description": "Creates an instance of a .NET Framework or COM object.",
+        "usage": "New-Object -TypeName [typename] [options]",
+        "details": "Generates new objects for use in scripts, enabling access to .NET functionalities."
+    },
+    {
+        "command": "Invoke-Command",
+        "description": "Runs commands on local and remote computers.",
+        "usage": "Invoke-Command -ComputerName [name] -ScriptBlock { commands }",
+        "details": "Executes scripts or cmdlets on one or more remote systems."
+    },
+    {
+        "command": "Enter-PSSession",
+        "description": "Starts an interactive session with a remote computer.",
+        "usage": "Enter-PSSession -ComputerName [name]",
+        "details": "Initiates a remote PowerShell session for interactive command execution."
+    },
+    {
+        "command": "Exit-PSSession",
+        "description": "Ends an interactive session with a remote computer.",
+        "usage": "Exit-PSSession",
+        "details": "Closes the current remote PowerShell session."
+    },
+    {
+        "command": "Get-PSDrive",
+        "description": "Gets the drives in the current session.",
+        "usage": "Get-PSDrive [options]",
+        "details": "Lists all PowerShell drives, including filesystem, registry, and others."
+    },
+    {
+        "command": "New-PSDrive",
+        "description": "Creates a new PowerShell drive.",
+        "usage": "New-PSDrive -Name [drive] -PSProvider [provider] -Root [path] [options]",
+        "details": "Maps a new drive letter or name to a data store, such as a file system or registry."
+    },
+    {
+        "command": "Remove-PSDrive",
+        "description": "Deletes a PowerShell drive.",
+        "usage": "Remove-PSDrive -Name [drive]",
+        "details": "Removes a previously created PowerShell drive."
+    },
+    {
+        "command": "Get-Help",
+        "description": "Gets help about cmdlets and concepts.",
+        "usage": "Get-Help [cmdlet] [options]",
+        "details": "Provides detailed information and examples for PowerShell cmdlets and topics."
+    },
+    {
+        "command": "Get-Command",
+        "description": "Gets all commands available in the session.",
+        "usage": "Get-Command [options]",
+        "details": "Lists all cmdlets, functions, workflows, aliases, and scripts available for use."
+    },
+    {
+        "command": "Get-Alias",
+        "description": "Gets the aliases for the current session.",
+        "usage": "Get-Alias [options]",
+        "details": "Displays a list of all defined aliases and their corresponding cmdlets."
+    },
+    {
+        "command": "Set-Alias",
+        "description": "Creates or changes an alias.",
+        "usage": "Set-Alias -Name [alias] -Value [cmdlet]",
+        "details": "Defines a new alias or modifies an existing one for a cmdlet or executable."
+    },
+    {
+        "command": "Get-EventSubscriber",
+        "description": "Gets the event subscribers in the current session.",
+        "usage": "Get-EventSubscriber",
+        "details": "Lists all event subscriptions that are active in the current PowerShell session."
+    },
+    {
+        "command": "Register-ObjectEvent",
+        "description": "Subscribes to an event that is generated by an object.",
+        "usage": "Register-ObjectEvent -InputObject [object] -EventName [event] -Action { commands }",
+        "details": "Creates an event subscription to execute actions when specific events occur."
+    },
+    {
+        "command": "Unregister-Event",
+        "description": "Unregisters an event subscription.",
+        "usage": "Unregister-Event -SubscriptionId [id]",
+        "details": "Removes a previously registered event subscription."
+    },
+    {
+        "command": "Get-Job",
+        "description": "Gets the Windows PowerShell background jobs in the current session.",
+        "usage": "Get-Job [options]",
+        "details": "Lists all background jobs that are running or have completed in the current session."
+    },
+    {
+        "command": "Start-Job",
+        "description": "Starts a background job.",
+        "usage": "Start-Job -ScriptBlock { commands }",
+        "details": "Executes a script block as a background job, allowing parallel processing."
+    },
+    {
+        "command": "Stop-Job",
+        "description": "Stops a background job.",
+        "usage": "Stop-Job -Id [id]",
+        "details": "Terminates a specified background job."
+    },
+    {
+        "command": "Receive-Job",
+        "description": "Gets the results of a background job.",
+        "usage": "Receive-Job -Id [id] [options]",
+        "details": "Retrieves the output from a completed background job."
+    },
+    {
+        "command": "Remove-Job",
+        "description": "Removes a background job.",
+        "usage": "Remove-Job -Id [id]",
+        "details": "Deletes a specified background job from the session."
+    },
+    {
+        "command": "Import-Module",
+        "description": "Adds one or more modules to the current session.",
+        "usage": "Import-Module -Name [module] [options]",
+        "details": "Loads a PowerShell module, making its cmdlets and functions available."
+    },
+    {
+        "command": "Export-ModuleMember",
+        "description": "Specifies which functions and variables to export from a module.",
+        "usage": "Export-ModuleMember -Function [functions] -Variable [variables]",
+        "details": "Controls the visibility of module components to users."
+    },
+    {
+        "command": "New-Module",
+        "description": "Creates a new PowerShell module.",
+        "usage": "New-Module -ScriptBlock { commands } [options]",
+        "details": "Defines a new module containing cmdlets, functions, and variables."
+    },
+    {
+        "command": "Get-Module",
+        "description": "Gets the modules that are loaded in the current session.",
+        "usage": "Get-Module [options]",
+        "details": "Lists all currently loaded PowerShell modules."
+    },
+    {
+        "command": "Remove-Module",
+        "description": "Removes a module from the current session.",
+        "usage": "Remove-Module -Name [module]",
+        "details": "Unloads a specified PowerShell module, freeing up resources."
+    },
+    {
+        "command": "Get-PSSession",
+        "description": "Gets the PSSession objects in the current session.",
+        "usage": "Get-PSSession [options]",
+        "details": "Lists all active PowerShell sessions, including local and remote sessions."
+    },
+    {
+        "command": "New-PSSession",
+        "description": "Creates a persistent connection to a local or remote computer.",
+        "usage": "New-PSSession -ComputerName [name] [options]",
+        "details": "Establishes a new PowerShell session for executing commands remotely."
+    },
+    {
+        "command": "Remove-PSSession",
+        "description": "Closes one or more PSSession objects.",
+        "usage": "Remove-PSSession -Session [session]",
+        "details": "Terminates specified PowerShell sessions, freeing up resources."
+    },
+    {
+        "command": "Import-PSSession",
+        "description": "Imports commands from another session into the current session.",
+        "usage": "Import-PSSession -Session [session] [options]",
+        "details": "Brings cmdlets and functions from a remote session into the local session."
+    },
+    {
+        "command": "Export-PSSession",
+        "description": "Exports commands from a session to a module.",
+        "usage": "Export-PSSession -Session [session] -OutputModule [module]",
+        "details": "Creates a module containing cmdlets and functions from a remote session."
+    },
+    {
+        "command": "Invoke-RestMethod",
+        "description": "Sends an HTTP or HTTPS request to a RESTful web service.",
+        "usage": "Invoke-RestMethod -Uri [uri] -Method [method] [options]",
+        "details": "Used to interact with REST APIs by sending requests and processing responses."
+    },
+    {
+        "command": "Invoke-WebRequest",
+        "description": "Sends an HTTP or HTTPS request to a web page or web service.",
+        "usage": "Invoke-WebRequest -Uri [uri] -Method [method] [options]",
+        "details": "Fetches web content, such as HTML pages or API responses, for processing."
+    },
+    {
+        "command": "Start-Sleep",
+        "description": "Suspends the activity in a script or session for the specified period.",
+        "usage": "Start-Sleep -Seconds [seconds]",
+        "details": "Pauses script execution for a defined number of seconds or milliseconds."
+    },
+    {
+        "command": "Measure-Object",
+        "description": "Measures the properties of objects.",
+        "usage": "Measure-Object -Property [property] -Average -Maximum -Minimum",
+        "details": "Calculates statistics like count, average, sum, maximum, and minimum for object properties."
+    },
+    {
+        "command": "Sort-Object",
+        "description": "Sorts objects by property values.",
+        "usage": "Sort-Object -Property [property] -Descending",
+        "details": "Orders objects based on one or more properties in ascending or descending order."
+    },
+    {
+        "command": "Select-Object",
+        "description": "Selects specific properties of an object or set of objects.",
+        "usage": "Select-Object -Property [properties]",
+        "details": "Filters and displays only the specified properties from objects."
+    },
+    {
+        "command": "Where-Object",
+        "description": "Filters objects based on specified criteria.",
+        "usage": "Where-Object { $_.Property -Condition 'Value' }",
+        "details": "Selects objects that meet certain conditions for further processing."
+    },
+    {
+        "command": "ForEach-Object",
+        "description": "Performs an operation on each item in a collection of input objects.",
+        "usage": "ForEach-Object { commands }",
+        "details": "Iterates through objects, executing specified commands for each one."
+    },
+    {
+        "command": "Out-File",
+        "description": "Sends output to a file.",
+        "usage": "Out-File -FilePath [path] [options]",
+        "details": "Writes the output of a command to a file, with options for encoding and formatting."
+    },
+    {
+        "command": "Out-GridView",
+        "description": "Displays output in an interactive table in a separate window.",
+        "usage": "Out-GridView [options]",
+        "details": "Provides a GUI for filtering and sorting data interactively."
+    },
+    {
+        "command": "Out-Host",
+        "description": "Sends output directly to the host for display.",
+        "usage": "Out-Host [options]",
+        "details": "Directs output to the PowerShell host interface, bypassing formatting."
+    },
+    {
+        "command": "Out-Null",
+        "description": "Sends output to null, effectively discarding it.",
+        "usage": "Out-Null",
+        "details": "Suppresses output by discarding it."
+    },
+    {
+        "command": "Start-Transcript",
+        "description": "Starts recording all or part of a PowerShell session.",
+        "usage": "Start-Transcript -Path [path] [options]",
+        "details": "Captures the session's input and output to a text file for auditing or review."
+    },
+    {
+        "command": "Stop-Transcript",
+        "description": "Stops recording a PowerShell session.",
+        "usage": "Stop-Transcript",
+        "details": "Ends the transcription started by `Start-Transcript`."
+    },
+    {
+        "command": "New-Guid",
+        "description": "Creates a new globally unique identifier (GUID).",
+        "usage": "New-Guid",
+        "details": "Generates a unique identifier for use in scripts and applications."
+    },
+    {
+        "command": "Test-Connection",
+        "description": "Sends ICMP echo request packets to test the reachability of a host.",
+        "usage": "Test-Connection -ComputerName [name] -Count [count]",
+        "details": "Similar to the `ping` command; used to verify network connectivity."
+    },
+    {
+        "command": "New-ItemProperty",
+        "description": "Creates a new property for an item and sets its value.",
+        "usage": "New-ItemProperty -Path [path] -Name [name] -Value [value] -PropertyType [type]",
+        "details": "Adds a new property to a file, registry key, or other objects with specified type and value."
+    },
+    {
+        "command": "Get-EventSubscriber",
+        "description": "Gets the event subscribers in the current session.",
+        "usage": "Get-EventSubscriber",
+        "details": "Lists all event subscriptions that are active in the current PowerShell session."
+    },
+    {
+        "command": "Register-ObjectEvent",
+        "description": "Subscribes to an event that is generated by an object.",
+        "usage": "Register-ObjectEvent -InputObject [object] -EventName [event] -Action { commands }",
+        "details": "Creates an event subscription to execute actions when specific events occur."
+    },
+    {
+        "command": "Unregister-Event",
+        "description": "Unregisters an event subscription.",
+        "usage": "Unregister-Event -SubscriptionId [id]",
+        "details": "Removes a previously registered event subscription."
+    },
+    {
+        "command": "New-PSWorkflow",
+        "description": "Creates a new PowerShell workflow.",
+        "usage": "New-PSWorkflow -Name [name] -ScriptBlock { commands }",
+        "details": "Defines a workflow that can run long-running tasks with features like checkpoints and parallel execution."
+    },
+    {
+        "command": "Invoke-Command",
+        "description": "Runs commands on local and remote computers.",
+        "usage": "Invoke-Command -ComputerName [name] -ScriptBlock { commands }",
+        "details": "Executes scripts or cmdlets on one or more remote systems."
+    },
+    {
+        "command": "Get-WmiObject",
+        "description": "Gets instances of WMI classes or information about the available WMI classes.",
+        "usage": "Get-WmiObject -Class [classname] [options]",
+        "details": "Retrieves system information and interacts with Windows Management Instrumentation."
+    },
+    {
+        "command": "Invoke-WmiMethod",
+        "description": "Calls the specified method of a WMI class.",
+        "usage": "Invoke-WmiMethod -Class [classname] -Name [method] -ArgumentList [args]",
+        "details": "Executes methods on WMI objects for system management tasks."
+    },
+    {
+        "command": "Get-CimInstance",
+        "description": "Gets management information from local and remote computers.",
+        "usage": "Get-CimInstance -ClassName [classname] [options]",
+        "details": "Similar to `Get-WmiObject` but uses the CIM cmdlets for better performance and compatibility."
+    },
+    {
+        "command": "Invoke-CimMethod",
+        "description": "Calls the specified method of a CIM class.",
+        "usage": "Invoke-CimMethod -ClassName [classname] -MethodName [method] -Arguments [args]",
+        "details": "Executes methods on CIM objects for system management tasks."
+    },
+    {
+        "command": "Get-ItemPropertyValue",
+        "description": "Gets the value of a property for a specified item.",
+        "usage": "Get-ItemPropertyValue -Path [path] -Name [property]",
+        "details": "Retrieves the value of a specific property from a file, registry key, or other object."
+    },
+    {
+        "command": "Set-ItemPropertyValue",
+        "description": "Sets the value of a property for a specified item.",
+        "usage": "Set-ItemPropertyValue -Path [path] -Name [property] -Value [value]",
+        "details": "Updates the value of a specific property for a file, registry key, or other object."
+    },
+    {
+        "command": "Compare-Object",
+        "description": "Compares two sets of objects.",
+        "usage": "Compare-Object -ReferenceObject [ref] -DifferenceObject [diff] [options]",
+        "details": "Identifies differences between two collections of objects, useful for comparing data sets."
+    },
+    {
+        "command": "Get-Random",
+        "description": "Gets a random number or a random object from a collection.",
+        "usage": "Get-Random [options]",
+        "details": "Generates random numbers or selects random items from a collection."
+    },
+    {
+        "command": "Measure-Command",
+        "description": "Measures the time it takes to run script block or command.",
+        "usage": "Measure-Command { commands }",
+        "details": "Used for performance testing by timing the execution of commands or scripts."
+    },
+    {
+        "command": "Start-Job",
+        "description": "Starts a background job.",
+        "usage": "Start-Job -ScriptBlock { commands }",
+        "details": "Executes a script block as a background job, allowing parallel processing."
+    },
+    {
+        "command": "Get-Job",
+        "description": "Gets the Windows PowerShell background jobs in the current session.",
+        "usage": "Get-Job [options]",
+        "details": "Lists all background jobs that are running or have completed in the current session."
+    },
+    {
+        "command": "Stop-Job",
+        "description": "Stops a background job.",
+        "usage": "Stop-Job -Id [id]",
+        "details": "Terminates a specified background job."
+    },
+    {
+        "command": "Receive-Job",
+        "description": "Gets the results of a background job.",
+        "usage": "Receive-Job -Id [id] [options]",
+        "details": "Retrieves the output from a completed background job."
+    },
+    {
+        "command": "Remove-Job",
+        "description": "Removes a background job.",
+        "usage": "Remove-Job -Id [id]",
+        "details": "Deletes a specified background job from the session."
+    },
+    {
+        "command": "Get-EventLog",
+        "description": "Gets the events in the event log on the local or remote computers.",
+        "usage": "Get-EventLog -LogName [logname] [options]",
+        "details": "Retrieves entries from Windows event logs for analysis or monitoring."
+    },
+    {
+        "command": "Clear-EventLog",
+        "description": "Deletes all entries from specified event logs.",
+        "usage": "Clear-EventLog -LogName [logname]",
+        "details": "Removes all events from the specified Windows event log."
+    },
+    {
+        "command": "Write-EventLog",
+        "description": "Writes an event to an event log.",
+        "usage": "Write-EventLog -LogName [logname] -Source [source] -EntryType [type] -EventId [id] -Message [message]",
+        "details": "Creates a new event entry in the specified Windows event log."
+    },
+    {
+        "command": "Get-History",
+        "description": "Gets the command history.",
+        "usage": "Get-History [options]",
+        "details": "Retrieves a list of commands entered during the current PowerShell session."
+    },
+    {
+        "command": "Invoke-History",
+        "description": "Runs commands from the session history.",
+        "usage": "Invoke-History -Id [id]",
+        "details": "Executes a command from the history based on its ID."
+    },
+    {
+        "command": "Clear-History",
+        "description": "Clears the session history.",
+        "usage": "Clear-History [options]",
+        "details": "Deletes the list of previously entered commands in the current session."
+    },
+    {
+        "command": "New-Item",
+        "description": "Creates a new item, such as a file or directory.",
+        "usage": "New-Item -Path [path] -ItemType [type] [options]",
+        "details": "Generates new files, folders, registry keys, or other items based on the specified type."
+    },
+    {
+        "command": "Get-Item",
+        "description": "Gets the item at the specified location.",
+        "usage": "Get-Item -Path [path]",
+        "details": "Retrieves a single item, such as a file or registry key, from a specified path."
+    },
+    {
+        "command": "Set-Item",
+        "description": "Changes the value of an item to the value specified in the command.",
+        "usage": "Set-Item -Path [path] -Value [value]",
+        "details": "Modifies the value of a specified item, such as a file property or registry key."
+    },
+    {
+        "command": "Remove-Item",
+        "description": "Deletes files and folders.",
+        "usage": "Remove-Item -Path [path] [options]",
+        "details": "Deletes specified files or directories. Use `-Recurse` to remove all items in a directory."
+    },
+    {
+        "command": "Move-Item",
+        "description": "Moves an item from one location to another.",
+        "usage": "Move-Item -Path [source] -Destination [destination] [options]",
+        "details": "Relocates files or directories to a new path, optionally overwriting existing items."
+    },
+    {
+        "command": "Copy-Item",
+        "description": "Copies an item from one location to another.",
+        "usage": "Copy-Item -Path [source] -Destination [destination] [options]",
+        "details": "Duplicates files or directories to a new location with optional parameters for recursion and force."
+    },
+    {
+        "command": "Get-ChildItem",
+        "description": "Gets the child items in one or more specified locations.",
+        "usage": "Get-ChildItem -Path [path] [options]",
+        "details": "Lists files and directories within a specified directory. Similar to `dir` in Command Prompt."
+    },
+    {
+        "command": "Get-Help",
+        "description": "Gets help about cmdlets and concepts.",
+        "usage": "Get-Help [cmdlet] [options]",
+        "details": "Provides detailed information and examples for PowerShell cmdlets and topics."
+    },
+    {
+        "command": "Set-ExecutionPolicy",
+        "description": "Changes the user preference for the PowerShell script execution policy.",
+        "usage": "Set-ExecutionPolicy -ExecutionPolicy [policy] [options]",
+        "details": "Sets the policy that determines which scripts can be run on the system."
+    },
+    {
+        "command": "Get-ExecutionPolicy",
+        "description": "Gets the user preference for the PowerShell script execution policy.",
+        "usage": "Get-ExecutionPolicy",
+        "details": "Retrieves the current script execution policy setting."
+    },
+    {
+        "command": "Enable-PSRemoting",
+        "description": "Configures the computer to receive PowerShell remote commands.",
+        "usage": "Enable-PSRemoting [options]",
+        "details": "Sets up the system for remote management by configuring necessary services and firewall rules."
+    },
+    {
+        "command": "Disable-PSRemoting",
+        "description": "Disables PowerShell remoting on the computer.",
+        "usage": "Disable-PSRemoting [options]",
+        "details": "Removes configurations that allow the computer to receive remote PowerShell commands."
+    },
+    {
+        "command": "Import-Csv",
+        "description": "Creates table-like custom objects from the items in a CSV file.",
+        "usage": "Import-Csv -Path [path] [options]",
+        "details": "Imports data from a CSV file into PowerShell objects for manipulation or processing."
+    },
+    {
+        "command": "Export-Csv",
+        "description": "Converts objects into a series of comma-separated values (CSV) and saves them in a CSV file.",
+        "usage": "Export-Csv -Path [path] -InputObject [object] [options]",
+        "details": "Used to export data from PowerShell objects to a CSV file for analysis or reporting."
+    },
+    {
+        "command": "ConvertTo-Json",
+        "description": "Converts an object to a JSON-formatted string.",
+        "usage": "ConvertTo-Json -InputObject [object] [options]",
+        "details": "Transforms PowerShell objects into JSON for data interchange or storage."
+    },
+    {
+        "command": "ConvertFrom-Json",
+        "description": "Converts a JSON-formatted string to a custom PowerShell object.",
+        "usage": "ConvertFrom-Json -InputObject [json]",
+        "details": "Parses JSON data into PowerShell objects for further manipulation."
+    },
+    {
+        "command": "Get-ItemProperty",
+        "description": "Gets the properties of an item.",
+        "usage": "Get-ItemProperty -Path [path] [options]",
+        "details": "Retrieves properties of files, registry keys, or other objects."
+    },
+    {
+        "command": "Set-ItemProperty",
+        "description": "Sets the value of a property of an item.",
+        "usage": "Set-ItemProperty -Path [path] -Name [name] -Value [value]",
+        "details": "Updates the value of a specific property for a file, registry key, or other object."
+    },
+    {
+        "command": "Get-ItemPropertyValue",
+        "description": "Gets the value of a property for a specified item.",
+        "usage": "Get-ItemPropertyValue -Path [path] -Name [property]",
+        "details": "Retrieves the value of a specific property from a file, registry key, or other object."
+    },
+    {
+        "command": "Set-ItemPropertyValue",
+        "description": "Sets the value of a property for a specified item.",
+        "usage": "Set-ItemPropertyValue -Path [path] -Name [property] -Value [value]",
+        "details": "Updates the value of a specific property for a file, registry key, or other object."
+    },
+    {
+        "command": "Get-PSDrive",
+        "description": "Gets the drives in the current session.",
+        "usage": "Get-PSDrive [options]",
+        "details": "Lists all PowerShell drives, including filesystem, registry, and others."
+    },
+    {
+        "command": "New-PSDrive",
+        "description": "Creates a new PowerShell drive.",
+        "usage": "New-PSDrive -Name [drive] -PSProvider [provider] -Root [path] [options]",
+        "details": "Maps a new drive letter or name to a data store, such as a file system or registry."
+    },
+    {
+        "command": "Remove-PSDrive",
+        "description": "Deletes a PowerShell drive.",
+        "usage": "Remove-PSDrive -Name [drive]",
+        "details": "Removes a previously created PowerShell drive."
+    },
+    {
+        "command": "Start-Sleep",
+        "description": "Suspends the activity in a script or session for the specified period.",
+        "usage": "Start-Sleep -Seconds [seconds]",
+        "details": "Pauses script execution for a defined number of seconds or milliseconds."
+    },
+    {
+        "command": "Measure-Object",
+        "description": "Measures the properties of objects.",
+        "usage": "Measure-Object -Property [property] -Average -Maximum -Minimum",
+        "details": "Calculates statistics like count, average, sum, maximum, and minimum for object properties."
+    },
+    {
+        "command": "Sort-Object",
+        "description": "Sorts objects by property values.",
+        "usage": "Sort-Object -Property [property] -Descending",
+        "details": "Orders objects based on one or more properties in ascending or descending order."
+    },
+    {
+        "command": "Select-Object",
+        "description": "Selects specific properties of an object or set of objects.",
+        "usage": "Select-Object -Property [properties]",
+        "details": "Filters and displays only the specified properties from objects."
+    },
+    {
+        "command": "Where-Object",
+        "description": "Filters objects based on specified criteria.",
+        "usage": "Where-Object { $_.Property -Condition 'Value' }",
+        "details": "Selects objects that meet certain conditions for further processing."
+    },
+    {
+        "command": "ForEach-Object",
+        "description": "Performs an operation on each item in a collection of input objects.",
+        "usage": "ForEach-Object { commands }",
+        "details": "Iterates through objects, executing specified commands for each one."
+    },
+    {
+        "command": "Out-File",
+        "description": "Sends output to a file.",
+        "usage": "Out-File -FilePath [path] [options]",
+        "details": "Writes the output of a command to a file, with options for encoding and formatting."
+    },
+    {
+        "command": "Out-GridView",
+        "description": "Displays output in an interactive table in a separate window.",
+        "usage": "Out-GridView [options]",
+        "details": "Provides a GUI for filtering and sorting data interactively."
+    },
+    {
+        "command": "Out-Host",
+        "description": "Sends output directly to the host for display.",
+        "usage": "Out-Host [options]",
+        "details": "Directs output to the PowerShell host interface, bypassing formatting."
+    },
+    {
+        "command": "Out-Null",
+        "description": "Sends output to null, effectively discarding it.",
+        "usage": "Out-Null",
+        "details": "Suppresses output by discarding it."
+    },
+    {
+        "command": "Start-Transcript",
+        "description": "Starts recording all or part of a PowerShell session.",
+        "usage": "Start-Transcript -Path [path] [options]",
+        "details": "Captures the session's input and output to a text file for auditing or review."
+    },
+    {
+        "command": "Stop-Transcript",
+        "description": "Stops recording a PowerShell session.",
+        "usage": "Stop-Transcript",
+        "details": "Ends the transcription started by `Start-Transcript`."
+    },
+    {
+        "command": "New-Guid",
+        "description": "Creates a new globally unique identifier (GUID).",
+        "usage": "New-Guid",
+        "details": "Generates a unique identifier for use in scripts and applications."
+    },
+    {
+        "command": "Get-Content",
+        "description": "Gets the content of the item at the specified location.",
+        "usage": "Get-Content -Path [path] [options]",
+        "details": "Reads the content of files or other data streams. Supports reading line by line."
+    },
+    {
+        "command": "Set-Content",
+        "description": "Writes or replaces the content in an item with new content.",
+        "usage": "Set-Content -Path [path] -Value [value] [options]",
+        "details": "Overwrites the content of a file or data stream with specified data."
+    },
+    {
+        "command": "Add-Content",
+        "description": "Adds content to the end of a file.",
+        "usage": "Add-Content -Path [path] -Value [value] [options]",
+        "details": "Appends data to an existing file without overwriting existing content."
+    },
+    {
+        "command": "Get-ItemProperty",
+        "description": "Gets the properties of an item.",
+        "usage": "Get-ItemProperty -Path [path] [options]",
+        "details": "Retrieves properties of files, registry keys, or other objects."
+    },
+    {
+        "command": "Set-ItemProperty",
+        "description": "Sets the value of a property of an item.",
+        "usage": "Set-ItemProperty -Path [path] -Name [name] -Value [value]",
+        "details": "Updates the value of a specific property for a file, registry key, or other object."
+    },
+    {
+        "command": "New-PSDrive",
+        "description": "Creates a new PowerShell drive.",
+        "usage": "New-PSDrive -Name [drive] -PSProvider [provider] -Root [path] [options]",
+        "details": "Maps a new drive letter or name to a data store, such as a file system or registry."
+    },
+    {
+        "command": "Get-PSDrive",
+        "description": "Gets the drives in the current session.",
+        "usage": "Get-PSDrive [options]",
+        "details": "Lists all PowerShell drives, including filesystem, registry, and others."
+    },
+    {
+        "command": "Remove-PSDrive",
+        "description": "Deletes a PowerShell drive.",
+        "usage": "Remove-PSDrive -Name [drive]",
+        "details": "Removes a previously created PowerShell drive."
+    },
+    {
+        "command": "Get-Variable",
+        "description": "Gets the value of a variable.",
+        "usage": "Get-Variable -Name [name] [options]",
+        "details": "Retrieves the value and properties of PowerShell variables."
+    },
+    {
+        "command": "Set-Variable",
+        "description": "Sets the value of a variable.",
+        "usage": "Set-Variable -Name [name] -Value [value] [options]",
+        "details": "Creates or modifies the value of a PowerShell variable."
+    },
+    {
+        "command": "Remove-Variable",
+        "description": "Deletes a variable.",
+        "usage": "Remove-Variable -Name [name] [options]",
+        "details": "Removes a specified PowerShell variable from the session."
+    },
+    {
+        "command": "Get-Date",
+        "description": "Gets the current date and time.",
+        "usage": "Get-Date [options]",
+        "details": "Retrieves the current system date and time, with options for formatting."
+    },
+    {
+        "command": "Set-Date",
+        "description": "Sets the system date and time.",
+        "usage": "Set-Date -Date [datetime]",
+        "details": "Modifies the system's date and time settings."
+    },
+    {
+        "command": "Get-Help",
+        "description": "Gets help about cmdlets and concepts.",
+        "usage": "Get-Help [cmdlet] [options]",
+        "details": "Provides detailed information and examples for PowerShell cmdlets and topics."
+    },
+    {
+        "command": "Get-Command",
+        "description": "Gets all commands available in the session.",
+        "usage": "Get-Command [options]",
+        "details": "Lists all cmdlets, functions, workflows, aliases, and scripts available for use."
+    },
+    {
+        "command": "Get-Alias",
+        "description": "Gets the aliases for the current session.",
+        "usage": "Get-Alias [options]",
+        "details": "Displays a list of all defined aliases and their corresponding cmdlets."
+    },
+    {
+        "command": "Set-Alias",
+        "description": "Creates or changes an alias.",
+        "usage": "Set-Alias -Name [alias] -Value [cmdlet]",
+        "details": "Defines a new alias or modifies an existing one for a cmdlet or executable."
+    },
+    {
+        "command": "Export-Csv",
+        "description": "Converts objects into a series of comma-separated values (CSV) and saves them in a CSV file.",
+        "usage": "Export-Csv -Path [path] -InputObject [object] [options]",
+        "details": "Used to export data from PowerShell objects to a CSV file for analysis or reporting."
+    },
+    {
+        "command": "Import-Csv",
+        "description": "Creates table-like custom objects from the items in a CSV file.",
+        "usage": "Import-Csv -Path [path] [options]",
+        "details": "Imports data from a CSV file into PowerShell objects for manipulation or processing."
+    },
+    {
+        "command": "ConvertTo-Json",
+        "description": "Converts an object to a JSON-formatted string.",
+        "usage": "ConvertTo-Json -InputObject [object] [options]",
+        "details": "Transforms PowerShell objects into JSON for data interchange or storage."
+    },
+    {
+        "command": "ConvertFrom-Json",
+        "description": "Converts a JSON-formatted string to a custom PowerShell object.",
+        "usage": "ConvertFrom-Json -InputObject [json]",
+        "details": "Parses JSON data into PowerShell objects for further manipulation."
+    },
+    {
+        "command": "Get-ItemPropertyValue",
+        "description": "Gets the value of a property for a specified item.",
+        "usage": "Get-ItemPropertyValue -Path [path] -Name [property]",
+        "details": "Retrieves the value of a specific property from a file, registry key, or other object."
+    },
+    {
+        "command": "Set-ItemPropertyValue",
+        "description": "Sets the value of a property for a specified item.",
+        "usage": "Set-ItemPropertyValue -Path [path] -Name [property] -Value [value]",
+        "details": "Updates the value of a specific property for a file, registry key, or other object."
+    },
+    {
+        "command": "Get-EventSubscriber",
+        "description": "Gets the event subscribers in the current session.",
+        "usage": "Get-EventSubscriber",
+        "details": "Lists all event subscriptions that are active in the current PowerShell session."
+    },
+    {
+        "command": "Register-ObjectEvent",
+        "description": "Subscribes to an event that is generated by an object.",
+        "usage": "Register-ObjectEvent -InputObject [object] -EventName [event] -Action { commands }",
+        "details": "Creates an event subscription to execute actions when specific events occur."
+    },
+    {
+        "command": "Unregister-Event",
+        "description": "Unregisters an event subscription.",
+        "usage": "Unregister-Event -SubscriptionId [id]",
+        "details": "Removes a previously registered event subscription."
+    },
+    {
+        "command": "Get-Job",
+        "description": "Gets the Windows PowerShell background jobs in the current session.",
+        "usage": "Get-Job [options]",
+        "details": "Lists all background jobs that are running or have completed in the current session."
+    },
+    {
+        "command": "Start-Job",
+        "description": "Starts a background job.",
+        "usage": "Start-Job -ScriptBlock { commands }",
+        "details": "Executes a script block as a background job, allowing parallel processing."
+    },
+    {
+        "command": "Stop-Job",
+        "description": "Stops a background job.",
+        "usage": "Stop-Job -Id [id]",
+        "details": "Terminates a specified background job."
+    },
+    {
+        "command": "Receive-Job",
+        "description": "Gets the results of a background job.",
+        "usage": "Receive-Job -Id [id] [options]",
+        "details": "Retrieves the output from a completed background job."
+    },
+    {
+        "command": "Remove-Job",
+        "description": "Removes a background job.",
+        "usage": "Remove-Job -Id [id]",
+        "details": "Deletes a specified background job from the session."
+    },
+    {
+        "command": "Get-Module",
+        "description": "Gets the modules that are loaded in the current session.",
+        "usage": "Get-Module [options]",
+        "details": "Lists all currently loaded PowerShell modules."
+    },
+    {
+        "command": "Import-Module",
+        "description": "Adds one or more modules to the current session.",
+        "usage": "Import-Module -Name [module] [options]",
+        "details": "Loads a PowerShell module, making its cmdlets and functions available."
+    },
+    {
+        "command": "Export-ModuleMember",
+        "description": "Specifies which functions and variables to export from a module.",
+        "usage": "Export-ModuleMember -Function [functions] -Variable [variables]",
+        "details": "Controls the visibility of module components to users."
+    },
+    {
+        "command": "New-Module",
+        "description": "Creates a new PowerShell module.",
+        "usage": "New-Module -ScriptBlock { commands } [options]",
+        "details": "Defines a new module containing cmdlets, functions, and variables."
+    },
+    {
+        "command": "Remove-Module",
+        "description": "Removes a module from the current session.",
+        "usage": "Remove-Module -Name [module]",
+        "details": "Unloads a specified PowerShell module, freeing up resources."
+    },
+    {
+        "command": "Get-PSDrive",
+        "description": "Gets the drives in the current session.",
+        "usage": "Get-PSDrive [options]",
+        "details": "Lists all PowerShell drives, including filesystem, registry, and others."
+    },
+    {
+        "command": "New-PSDrive",
+        "description": "Creates a new PowerShell drive.",
+        "usage": "New-PSDrive -Name [drive] -PSProvider [provider] -Root [path] [options]",
+        "details": "Maps a new drive letter or name to a data store, such as a file system or registry."
+    },
+    {
+        "command": "Remove-PSDrive",
+        "description": "Deletes a PowerShell drive.",
+        "usage": "Remove-PSDrive -Name [drive]",
+        "details": "Removes a previously created PowerShell drive."
+    },
+    {
+        "command": "Get-PSProvider",
+        "description": "Gets the available providers in the current session.",
+        "usage": "Get-PSProvider",
+        "details": "Lists all PowerShell providers, such as FileSystem, Registry, etc."
+    },
+    {
+        "command": "Invoke-Command",
+        "description": "Runs commands on local and remote computers.",
+        "usage": "Invoke-Command -ComputerName [name] -ScriptBlock { commands }",
+        "details": "Executes scripts or cmdlets on one or more remote systems."
+    },
+    {
+        "command": "Enter-PSSession",
+        "description": "Starts an interactive session with a remote computer.",
+        "usage": "Enter-PSSession -ComputerName [name]",
+        "details": "Initiates a remote PowerShell session for interactive command execution."
+    },
+    {
+        "command": "Exit-PSSession",
+        "description": "Ends an interactive session with a remote computer.",
+        "usage": "Exit-PSSession",
+        "details": "Closes the current remote PowerShell session."
+    },
+    {
+        "command": "Get-PSSession",
+        "description": "Gets the PSSession objects in the current session.",
+        "usage": "Get-PSSession [options]",
+        "details": "Lists all active PowerShell sessions, including local and remote sessions."
+    },
+    {
+        "command": "New-PSSession",
+        "description": "Creates a persistent connection to a local or remote computer.",
+        "usage": "New-PSSession -ComputerName [name] [options]",
+        "details": "Establishes a new PowerShell session for executing commands remotely."
+    },
+    {
+        "command": "Remove-PSSession",
+        "description": "Closes one or more PSSession objects.",
+        "usage": "Remove-PSSession -Session [session]",
+        "details": "Terminates specified PowerShell sessions, freeing up resources."
+    },
+    {
+        "command": "Import-PSSession",
+        "description": "Imports commands from another session into the current session.",
+        "usage": "Import-PSSession -Session [session] [options]",
+        "details": "Brings cmdlets and functions from a remote session into the local session."
+    },
+    {
+        "command": "Export-PSSession",
+        "description": "Exports commands from a session to a module.",
+        "usage": "Export-PSSession -Session [session] -OutputModule [module]",
+        "details": "Creates a module containing cmdlets and functions from a remote session."
+    },
+    {
+        "command": "Get-InstalledModule",
+        "description": "Gets modules that are installed on the computer.",
+        "usage": "Get-InstalledModule [options]",
+        "details": "Lists all PowerShell modules installed via the PowerShell Gallery or other repositories."
+    },
+    {
+        "command": "Install-Module",
+        "description": "Installs a module from an online repository.",
+        "usage": "Install-Module -Name [module] [options]",
+        "details": "Downloads and installs a PowerShell module from sources like the PowerShell Gallery."
+    },
+    {
+        "command": "Update-Module",
+        "description": "Updates a module to the latest version from an online repository.",
+        "usage": "Update-Module -Name [module]",
+        "details": "Fetches and installs the latest version of a specified PowerShell module."
+    },
+    {
+        "command": "Find-Module",
+        "description": "Finds modules in online repositories.",
+        "usage": "Find-Module -Name [module] [options]",
+        "details": "Searches for PowerShell modules available in repositories like the PowerShell Gallery."
+    },
+    {
+        "command": "Save-Module",
+        "description": "Saves a module from an online repository to a local directory.",
+        "usage": "Save-Module -Name [module] -Path [path]",
+        "details": "Downloads a PowerShell module without installing it, saving it to a specified location."
+    },
+    {
+        "command": "Uninstall-Module",
+        "description": "Uninstalls a module from the computer.",
+        "usage": "Uninstall-Module -Name [module]",
+        "details": "Removes a specified PowerShell module from the system."
+    },
+    {
+        "command": "Update-Help",
+        "description": "Downloads and installs the newest help files for PowerShell modules.",
+        "usage": "Update-Help [options]",
+        "details": "Ensures that help documentation is up-to-date for all installed modules."
+    },
+    {
+        "command": "Get-Help",
+        "description": "Gets help about cmdlets and concepts.",
+        "usage": "Get-Help [cmdlet] [options]",
+        "details": "Provides detailed information and examples for PowerShell cmdlets and topics."
+    },
+    {
+        "command": "Export-Clixml",
+        "description": "Exports objects to an XML file in a format that preserves all the properties of the objects.",
+        "usage": "Export-Clixml -Path [path] -InputObject [object]",
+        "details": "Serializes PowerShell objects into XML for storage or transmission."
+    },
+    {
+        "command": "Import-Clixml",
+        "description": "Imports objects from an XML file created by `Export-Clixml`.",
+        "usage": "Import-Clixml -Path [path]",
+        "details": "Deserializes XML data back into PowerShell objects."
+    },
+    {
+        "command": "New-Guid",
+        "description": "Creates a new globally unique identifier (GUID).",
+        "usage": "New-Guid",
+        "details": "Generates a unique identifier for use in scripts and applications."
+    },
+    {
+        "command": "Get-Random",
+        "description": "Gets a random number or a random object from a collection.",
+        "usage": "Get-Random [options]",
+        "details": "Generates random numbers or selects random items from a collection."
+    },
+    {
+        "command": "Measure-Command",
+        "description": "Measures the time it takes to run script block or command.",
+        "usage": "Measure-Command { commands }",
+        "details": "Used for performance testing by timing the execution of commands or scripts."
+    },
+    {
+        "command": "Compare-Object",
+        "description": "Compares two sets of objects.",
+        "usage": "Compare-Object -ReferenceObject [ref] -DifferenceObject [diff] [options]",
+        "details": "Identifies differences between two collections of objects, useful for comparing data sets."
+    },
+    {
+        "command": "Select-String",
+        "description": "Searches for text and patterns in input strings and files.",
+        "usage": "Select-String -Pattern [pattern] -Path [path] [options]",
+        "details": "Performs pattern matching using regular expressions to find specific text within files."
+    },
+    {
+        "command": "Select-Object",
+        "description": "Selects specific properties of an object or set of objects.",
+        "usage": "Select-Object -Property [properties]",
+        "details": "Filters and displays only the specified properties from objects."
+    },
+    {
+        "command": "Sort-Object",
+        "description": "Sorts objects by property values.",
+        "usage": "Sort-Object -Property [property] -Descending",
+        "details": "Orders objects based on one or more properties in ascending or descending order."
+    },
+    {
+        "command": "Get-Content",
+        "description": "Gets the content of the item at the specified location.",
+        "usage": "Get-Content -Path [path] [options]",
+        "details": "Reads the content of files or other data streams. Supports reading line by line."
+    },
+    {
+        "command": "Set-Content",
+        "description": "Writes or replaces the content in an item with new content.",
+        "usage": "Set-Content -Path [path] -Value [value] [options]",
+        "details": "Overwrites the content of a file or data stream with specified data."
+    },
+    {
+        "command": "Add-Content",
+        "description": "Adds content to the end of a file.",
+        "usage": "Add-Content -Path [path] -Value [value] [options]",
+        "details": "Appends data to an existing file without overwriting existing content."
+    },
+    {
+        "command": "Get-Item",
+        "description": "Gets the item at the specified location.",
+        "usage": "Get-Item -Path [path]",
+        "details": "Retrieves a single item, such as a file or registry key, from a specified path."
+    },
+    {
+        "command": "New-Item",
+        "description": "Creates a new item, such as a file or directory.",
+        "usage": "New-Item -Path [path] -ItemType [type] [options]",
+        "details": "Generates new files, folders, registry keys, or other items based on the specified type."
+    },
+    {
+        "command": "Remove-Item",
+        "description": "Deletes files and folders.",
+        "usage": "Remove-Item -Path [path] [options]",
+        "details": "Deletes specified files or directories. Use `-Recurse` to remove all items in a directory."
+    },
+    {
+        "command": "Move-Item",
+        "description": "Moves an item from one location to another.",
+        "usage": "Move-Item -Path [source] -Destination [destination] [options]",
+        "details": "Relocates files or directories to a new path, optionally overwriting existing items."
+    },
+    {
+        "command": "Copy-Item",
+        "description": "Copies an item from one location to another.",
+        "usage": "Copy-Item -Path [source] -Destination [destination] [options]",
+        "details": "Duplicates files or directories to a new location with optional parameters for recursion and force."
+    },
+    {
+        "command": "Get-Process",
+        "description": "Gets the processes that are running on the local computer or a remote computer.",
+        "usage": "Get-Process [options]",
+        "details": "Retrieves information about active processes, such as CPU and memory usage."
+    },
+    {
+        "command": "Stop-Process",
+        "description": "Stops one or more running processes.",
+        "usage": "Stop-Process -Name [processname] -Force",
+        "details": "Terminates specified processes by name or ID. The `-Force` parameter forces termination."
+    },
+    {
+        "command": "Start-Process",
+        "description": "Starts one or more processes on the local computer.",
+        "usage": "Start-Process -FilePath [path] [options]",
+        "details": "Launches applications or scripts with optional parameters and window styles."
+    },
+    {
+        "command": "Get-Service",
+        "description": "Gets the status of services on a local or remote computer.",
+        "usage": "Get-Service [options]",
+        "details": "Retrieves information about Windows services, including their status and display names."
+    },
+    {
+        "command": "Start-Service",
+        "description": "Starts a stopped service.",
+        "usage": "Start-Service -Name [servicename]",
+        "details": "Initiates the specified Windows service."
+    },
+    {
+        "command": "Stop-Service",
+        "description": "Stops a running service.",
+        "usage": "Stop-Service -Name [servicename]",
+        "details": "Terminates the specified Windows service."
+    },
+    {
+        "command": "Restart-Service",
+        "description": "Stops and then starts one or more services.",
+        "usage": "Restart-Service -Name [servicename]",
+        "details": "Reloads the specified Windows service by restarting it."
+    },
+    {
+        "command": "Get-EventLog",
+        "description": "Gets the events in the event log on the local or remote computers.",
+        "usage": "Get-EventLog -LogName [logname] [options]",
+        "details": "Retrieves entries from Windows event logs for analysis or monitoring."
+    },
+    {
+        "command": "Clear-EventLog",
+        "description": "Deletes all entries from specified event logs.",
+        "usage": "Clear-EventLog -LogName [logname]",
+        "details": "Removes all events from the specified Windows event log."
+    },
+    {
+        "command": "Write-EventLog",
+        "description": "Writes an event to an event log.",
+        "usage": "Write-EventLog -LogName [logname] -Source [source] -EntryType [type] -EventId [id] -Message [message]",
+        "details": "Creates a new event entry in the specified Windows event log."
+    },
+    {
+        "command": "Get-WmiObject",
+        "description": "Gets instances of WMI classes or information about the available WMI classes.",
+        "usage": "Get-WmiObject -Class [classname] [options]",
+        "details": "Retrieves system information and interacts with Windows Management Instrumentation."
+    },
+    {
+        "command": "Invoke-WmiMethod",
+        "description": "Calls the specified method of a WMI class.",
+        "usage": "Invoke-WmiMethod -Class [classname] -Name [method] -ArgumentList [args]",
+        "details": "Executes methods on WMI objects for system management tasks."
+    },
+    {
+        "command": "Get-CimInstance",
+        "description": "Gets management information from local and remote computers.",
+        "usage": "Get-CimInstance -ClassName [classname] [options]",
+        "details": "Similar to `Get-WmiObject` but uses the CIM cmdlets for better performance and compatibility."
+    },
+    {
+        "command": "Invoke-CimMethod",
+        "description": "Calls the specified method of a CIM class.",
+        "usage": "Invoke-CimMethod -ClassName [classname] -MethodName [method] -Arguments [args]",
+        "details": "Executes methods on CIM objects for system management tasks."
+    },
+    {
+        "command": "Get-NetAdapter",
+        "description": "Gets the network adapters on a local or remote computer.",
+        "usage": "Get-NetAdapter [options]",
+        "details": "Retrieves information about network interfaces, including status and configuration."
+    },
+    {
+        "command": "Enable-NetAdapter",
+        "description": "Enables a network adapter.",
+        "usage": "Enable-NetAdapter -Name [adapter] [options]",
+        "details": "Activates a specified network interface."
+    },
+    {
+        "command": "Disable-NetAdapter",
+        "description": "Disables a network adapter.",
+        "usage": "Disable-NetAdapter -Name [adapter] [options]",
+        "details": "Deactivates a specified network interface."
+    },
+    {
+        "command": "Get-NetIPAddress",
+        "description": "Gets the IP address configuration.",
+        "usage": "Get-NetIPAddress [options]",
+        "details": "Retrieves IP address settings for network interfaces."
+    },
+    {
+        "command": "New-NetIPAddress",
+        "description": "Adds a new IP address to a network interface.",
+        "usage": "New-NetIPAddress -InterfaceAlias [alias] -IPAddress [ip] -PrefixLength [length]",
+        "details": "Assigns a new IP address to a specified network adapter."
+    },
+    {
+        "command": "Remove-NetIPAddress",
+        "description": "Removes an IP address from a network interface.",
+        "usage": "Remove-NetIPAddress -InterfaceAlias [alias] -IPAddress [ip] [options]",
+        "details": "Deletes a specified IP address from a network adapter."
+    },
+    {
+        "command": "Set-NetIPAddress",
+        "description": "Modifies an existing IP address configuration.",
+        "usage": "Set-NetIPAddress -InterfaceAlias [alias] -IPAddress [ip] [options]",
+        "details": "Updates properties of an existing IP address assignment."
+    },
+    {
+        "command": "Get-NetRoute",
+        "description": "Gets the IP routing table.",
+        "usage": "Get-NetRoute [options]",
+        "details": "Retrieves routing information for network traffic."
+    },
+    {
+        "command": "New-NetRoute",
+        "description": "Adds a new route to the IP routing table.",
+        "usage": "New-NetRoute -DestinationPrefix [prefix] -InterfaceAlias [alias] -NextHop [ip]",
+        "details": "Creates a new network route for directing traffic."
+    },
+    {
+        "command": "Remove-NetRoute",
+        "description": "Removes a route from the IP routing table.",
+        "usage": "Remove-NetRoute -DestinationPrefix [prefix] [options]",
+        "details": "Deletes a specified network route from the routing table."
+    },
+    {
+        "command": "Get-NetFirewallRule",
+        "description": "Gets the firewall rules.",
+        "usage": "Get-NetFirewallRule [options]",
+        "details": "Retrieves information about Windows Firewall rules."
+    },
+    {
+        "command": "New-NetFirewallRule",
+        "description": "Creates a new inbound or outbound firewall rule.",
+        "usage": "New-NetFirewallRule -Name [name] -DisplayName [display] -Direction [in|out] -Action [allow|block]",
+        "details": "Adds a new rule to the Windows Firewall with specified properties."
+    },
+    {
+        "command": "Set-NetFirewallRule",
+        "description": "Modifies an existing firewall rule.",
+        "usage": "Set-NetFirewallRule -Name [name] -Enabled [True|False] [options]",
+        "details": "Updates properties of an existing Windows Firewall rule."
+    },
+    {
+        "command": "Remove-NetFirewallRule",
+        "description": "Deletes a firewall rule.",
+        "usage": "Remove-NetFirewallRule -Name [name]",
+        "details": "Removes a specified rule from the Windows Firewall."
+    },
+    {
+        "command": "Get-EventSubscriber",
+        "description": "Gets the event subscribers in the current session.",
+        "usage": "Get-EventSubscriber",
+        "details": "Lists all event subscriptions that are active in the current PowerShell session."
+    },
+    {
+        "command": "Register-ObjectEvent",
+        "description": "Subscribes to an event that is generated by an object.",
+        "usage": "Register-ObjectEvent -InputObject [object] -EventName [event] -Action { commands }",
+        "details": "Creates an event subscription to execute actions when specific events occur."
+    },
+    {
+        "command": "Unregister-Event",
+        "description": "Unregisters an event subscription.",
+        "usage": "Unregister-Event -SubscriptionId [id]",
+        "details": "Removes a previously registered event subscription."
+    },
+    {
+        "command": "Get-PSCallStack",
+        "description": "Gets information about the call stack.",
+        "usage": "Get-PSCallStack",
+        "details": "Retrieves a list of all commands in the current call stack."
+    },
+    {
+        "command": "Push-Location",
+        "description": "Pushes the current location onto a stack.",
+        "usage": "Push-Location -Path [path]",
+        "details": "Saves the current directory path for later retrieval."
+    },
+    {
+        "command": "Pop-Location",
+        "description": "Pops the top location from the stack and sets the current location to it.",
+        "usage": "Pop-Location",
+        "details": "Returns to the directory path that was previously saved with `Push-Location`."
+    },
+    {
+        "command": "Get-Location",
+        "description": "Gets the current directory.",
+        "usage": "Get-Location",
+        "details": "Displays the current working directory in the PowerShell session."
+    },
+    {
+        "command": "Set-Location",
+        "description": "Sets the current directory to a specified location.",
+        "usage": "Set-Location -Path [path]",
+        "details": "Changes the working directory to the specified path."
+    },
+    {
+        "command": "Test-Path",
+        "description": "Determines whether all elements of a path exist.",
+        "usage": "Test-Path -Path [path]",
+        "details": "Returns a Boolean value indicating the existence of the specified path."
+    },
+    {
+        "command": "Get-PSProvider",
+        "description": "Gets the available providers in the current session.",
+        "usage": "Get-PSProvider",
+        "details": "Lists all PowerShell providers, such as FileSystem, Registry, etc."
+    },
+    {
+        "command": "Import-Module",
+        "description": "Adds one or more modules to the current session.",
+        "usage": "Import-Module -Name [module] [options]",
+        "details": "Loads a PowerShell module, making its cmdlets and functions available."
+    },
+    {
+        "command": "Export-ModuleMember",
+        "description": "Specifies which functions and variables to export from a module.",
+        "usage": "Export-ModuleMember -Function [functions] -Variable [variables]",
+        "details": "Controls the visibility of module components to users."
+    },
+    {
+        "command": "New-Module",
+        "description": "Creates a new PowerShell module.",
+        "usage": "New-Module -ScriptBlock { commands } [options]",
+        "details": "Defines a new module containing cmdlets, functions, and variables."
+    },
+    {
+        "command": "Get-Module",
+        "description": "Gets the modules that are loaded in the current session.",
+        "usage": "Get-Module [options]",
+        "details": "Lists all currently loaded PowerShell modules."
+    },
+    {
+        "command": "Remove-Module",
+        "description": "Removes a module from the current session.",
+        "usage": "Remove-Module -Name [module]",
+        "details": "Unloads a specified PowerShell module, freeing up resources."
+    },
+    {
+        "command": "Get-PSDrive",
+        "description": "Gets the drives in the current session.",
+        "usage": "Get-PSDrive [options]",
+        "details": "Lists all PowerShell drives, including filesystem, registry, and others."
+    },
+    {
+        "command": "New-PSDrive",
+        "description": "Creates a new PowerShell drive.",
+        "usage": "New-PSDrive -Name [drive] -PSProvider [provider] -Root [path] [options]",
+        "details": "Maps a new drive letter or name to a data store, such as a file system or registry."
+    },
+    {
+        "command": "Remove-PSDrive",
+        "description": "Deletes a PowerShell drive.",
+        "usage": "Remove-PSDrive -Name [drive]",
+        "details": "Removes a previously created PowerShell drive."
+    },
+    {
+        "command": "Get-Variable",
+        "description": "Gets the value of a variable.",
+        "usage": "Get-Variable -Name [name] [options]",
+        "details": "Retrieves the value and properties of PowerShell variables."
+    },
+    {
+        "command": "Set-Variable",
+        "description": "Sets the value of a variable.",
+        "usage": "Set-Variable -Name [name] -Value [value] [options]",
+        "details": "Creates or modifies the value of a PowerShell variable."
+    },
+    {
+        "command": "Remove-Variable",
+        "description": "Deletes a variable.",
+        "usage": "Remove-Variable -Name [name] [options]",
+        "details": "Removes a specified PowerShell variable from the session."
+    },
+    {
+        "command": "Get-Date",
+        "description": "Gets the current date and time.",
+        "usage": "Get-Date [options]",
+        "details": "Retrieves the current system date and time, with options for formatting."
+    },
+    {
+        "command": "Set-Date",
+        "description": "Sets the system date and time.",
+        "usage": "Set-Date -Date [datetime]",
+        "details": "Modifies the system's date and time settings."
+    },
+    {
+        "command": "Get-Help",
+        "description": "Gets help about cmdlets and concepts.",
+        "usage": "Get-Help [cmdlet] [options]",
+        "details": "Provides detailed information and examples for PowerShell cmdlets and topics."
+    },
+    {
+        "command": "Get-Command",
+        "description": "Gets all commands available in the session.",
+        "usage": "Get-Command [options]",
+        "details": "Lists all cmdlets, functions, workflows, aliases, and scripts available for use."
+    },
+    {
+        "command": "Get-Alias",
+        "description": "Gets the aliases for the current session.",
+        "usage": "Get-Alias [options]",
+        "details": "Displays a list of all defined aliases and their corresponding cmdlets."
+    },
+    {
+        "command": "Set-Alias",
+        "description": "Creates or changes an alias.",
+        "usage": "Set-Alias -Name [alias] -Value [cmdlet]",
+        "details": "Defines a new alias or modifies an existing one for a cmdlet or executable."
+    },
+    {
+        "command": "Get-EventSubscriber",
+        "description": "Gets the event subscribers in the current session.",
+        "usage": "Get-EventSubscriber",
+        "details": "Lists all event subscriptions that are active in the current PowerShell session."
+    },
+    {
+        "command": "Register-ObjectEvent",
+        "description": "Subscribes to an event that is generated by an object.",
+        "usage": "Register-ObjectEvent -InputObject [object] -EventName [event] -Action { commands }",
+        "details": "Creates an event subscription to execute actions when specific events occur."
+    },
+    {
+        "command": "Unregister-Event",
+        "description": "Unregisters an event subscription.",
+        "usage": "Unregister-Event -SubscriptionId [id]",
+        "details": "Removes a previously registered event subscription."
+    },
+    {
+        "command": "Get-Job",
+        "description": "Gets the Windows PowerShell background jobs in the current session.",
+        "usage": "Get-Job [options]",
+        "details": "Lists all background jobs that are running or have completed in the current session."
+    },
+    {
+        "command": "Start-Job",
+        "description": "Starts a background job.",
+        "usage": "Start-Job -ScriptBlock { commands }",
+        "details": "Executes a script block as a background job, allowing parallel processing."
+    },
+    {
+        "command": "Stop-Job",
+        "description": "Stops a background job.",
+        "usage": "Stop-Job -Id [id]",
+        "details": "Terminates a specified background job."
+    },
+    {
+        "command": "Receive-Job",
+        "description": "Gets the results of a background job.",
+        "usage": "Receive-Job -Id [id] [options]",
+        "details": "Retrieves the output from a completed background job."
+    },
+    {
+        "command": "Remove-Job",
+        "description": "Removes a background job.",
+        "usage": "Remove-Job -Id [id]",
+        "details": "Deletes a specified background job from the session."
+    },
+    {
+        "command": "Get-Module",
+        "description": "Gets the modules that are loaded in the current session.",
+        "usage": "Get-Module [options]",
+        "details": "Lists all currently loaded PowerShell modules."
+    },
+    {
+        "command": "Import-Module",
+        "description": "Adds one or more modules to the current session.",
+        "usage": "Import-Module -Name [module] [options]",
+        "details": "Loads a PowerShell module, making its cmdlets and functions available."
+    },
+    {
+        "command": "Export-ModuleMember",
+        "description": "Specifies which functions and variables to export from a module.",
+        "usage": "Export-ModuleMember -Function [functions] -Variable [variables]",
+        "details": "Controls the visibility of module components to users."
+    },
+    {
+        "command": "New-Module",
+        "description": "Creates a new PowerShell module.",
+        "usage": "New-Module -ScriptBlock { commands } [options]",
+        "details": "Defines a new module containing cmdlets, functions, and variables."
+    },
+    {
+        "command": "Remove-Module",
+        "description": "Removes a module from the current session.",
+        "usage": "Remove-Module -Name [module]",
+        "details": "Unloads a specified PowerShell module, freeing up resources."
+    },
+    {
+        "command": "Get-PSDrive",
+        "description": "Gets the drives in the current session.",
+        "usage": "Get-PSDrive [options]",
+        "details": "Lists all PowerShell drives, including filesystem, registry, and others."
+    }
+
+]

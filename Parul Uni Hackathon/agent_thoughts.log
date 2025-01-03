@@ -1,0 +1,364 @@
+2025-01-03 06:29:12,798 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 06:30:03,090 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 07:05:21,993 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 07:05:23,455 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 07:05:24,085 - INFO - response: https://html.duckduckgo.com/html 202 14231
+2025-01-03 07:05:24,085 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-01-03 07:05:26,113 - INFO - response: https://www.ecosia.org/search?q=India+vs+Australia+live+cricket+score+API 200 217174
+2025-01-03 07:05:29,283 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+"
+2025-01-03 07:05:47,601 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 07:06:44,362 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 07:06:46,019 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 07:06:46,276 - INFO - response: https://html.duckduckgo.com/html 202 14263
+2025-01-03 07:06:46,276 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-01-03 07:06:47,326 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14257
+2025-01-03 07:06:47,326 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-01-03 07:06:50,058 - INFO - response: https://www.ecosia.org/search?q=current+score+India+vs+Australia+cricket+match+live 200 239904
+2025-01-03 07:06:52,020 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 07:06:54,228 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:16:48,196 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:16:52,364 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:16:53,455 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:20:55,214 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:20:57,459 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:20:58,201 - INFO - response: https://lite.duckduckgo.com/lite/ 202 14212
+2025-01-03 09:20:58,201 - INFO - Error to search using lite backend: https://lite.duckduckgo.com/lite/ 202 Ratelimit
+2025-01-03 09:21:00,020 - INFO - response: https://www.ecosia.org/search?q=current+fast+fashion+trends+2023 200 208008
+2025-01-03 09:21:07,985 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:21:12,515 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:21:22,701 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:26:18,335 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:26:24,443 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:26:27,641 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:26:37,830 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:26:43,354 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:26:52,095 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:26:55,121 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:27:04,003 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:27:07,150 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK""
+2025-01-03 09:35:35,626 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:35:38,036 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:35:43,221 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:37:50,446 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 09:37:57,731 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:14:08,219 - INFO - Retrying request to /chat/completions in 0.461614 seconds
+2025-01-03 11:14:08,690 - INFO - Retrying request to /chat/completions in 0.992341 seconds
+2025-01-03 11:14:41,831 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:14:47,481 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:14:55,194 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:15:08,268 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:15:44,138 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:15:49,065 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:15:57,375 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:16:02,916 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:16:08,196 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:16:12,764 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:16:16,940 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+
+2025-01-03 11:29:46,680 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:29:51,150 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:29:55,980 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:30:00,870 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:51:51,693 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 11:51:51,694 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 11:51:51,712 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 11:51:56,839 - WARNING -  * Debugger is active!
+2025-01-03 11:51:56,861 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 11:52:09,862 - INFO - 127.0.0.1 - - [03/Jan/2025 11:52:09] "OPTIONS /Chat HTTP/1.1" 200 -
+2025-01-03 11:52:12,205 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:52:53,630 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgent copy.py', reloading
+2025-01-03 11:52:53,631 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgent copy.py', reloading
+2025-01-03 11:52:53,631 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgent copy.py', reloading
+2025-01-03 11:52:55,177 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 11:53:01,283 - WARNING -  * Debugger is active!
+2025-01-03 11:53:01,307 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 11:53:03,068 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgent copy.py', reloading
+2025-01-03 11:53:03,068 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentZeroShot.py', reloading
+2025-01-03 11:53:04,009 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 11:53:09,785 - WARNING -  * Debugger is active!
+2025-01-03 11:53:09,802 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 11:53:10,539 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\AgentApp.py', reloading
+2025-01-03 11:53:10,540 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\AgentApp.py', reloading
+2025-01-03 11:53:10,540 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\AgentApp.py', reloading
+2025-01-03 11:53:11,213 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 11:53:16,168 - WARNING -  * Debugger is active!
+2025-01-03 11:53:16,189 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 11:54:45,938 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentZeroShot.py', reloading
+2025-01-03 11:54:46,846 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 11:54:52,641 - WARNING -  * Debugger is active!
+2025-01-03 11:54:52,663 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 11:54:59,855 - INFO - 127.0.0.1 - - [03/Jan/2025 11:54:59] "OPTIONS /Chat HTTP/1.1" 200 -
+2025-01-03 11:55:02,387 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:55:06,296 - INFO - 127.0.0.1 - - [03/Jan/2025 11:55:06] "POST /Chat HTTP/1.1" 200 -
+2025-01-03 11:55:23,554 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentZeroShot.py', reloading
+2025-01-03 11:55:23,556 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentZeroShot.py', reloading
+2025-01-03 11:55:23,556 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentZeroShot.py', reloading
+2025-01-03 11:55:24,568 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 11:58:37,374 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 11:58:37,375 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 11:58:37,393 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 11:58:42,591 - WARNING -  * Debugger is active!
+2025-01-03 11:58:42,616 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 11:58:48,212 - INFO - 127.0.0.1 - - [03/Jan/2025 11:58:48] "OPTIONS /Chat HTTP/1.1" 200 -
+2025-01-03 11:58:51,158 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 11:58:54,534 - INFO - 127.0.0.1 - - [03/Jan/2025 11:58:54] "POST /Chat HTTP/1.1" 200 -
+2025-01-03 12:00:10,963 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\AgentApp.py', reloading
+2025-01-03 12:00:10,963 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\AgentApp.py', reloading
+2025-01-03 12:00:10,964 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\AgentApp.py', reloading
+2025-01-03 12:00:12,393 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 12:00:18,225 - WARNING -  * Debugger is active!
+2025-01-03 12:00:18,246 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 12:00:25,180 - INFO - 127.0.0.1 - - [03/Jan/2025 12:00:25] "OPTIONS /Chat HTTP/1.1" 200 -
+2025-01-03 12:00:36,514 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:00:40,546 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:00:43,363 - INFO - 127.0.0.1 - - [03/Jan/2025 12:00:43] "POST /Chat HTTP/1.1" 200 -
+2025-01-03 12:01:24,164 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\AgentApp.py', reloading
+2025-01-03 12:01:24,165 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\AgentApp.py', reloading
+2025-01-03 12:01:24,165 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\AgentApp.py', reloading
+2025-01-03 12:01:25,528 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 12:01:30,848 - WARNING -  * Debugger is active!
+2025-01-03 12:01:30,868 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 12:01:33,233 - INFO - 127.0.0.1 - - [03/Jan/2025 12:01:33] "OPTIONS /Chat HTTP/1.1" 200 -
+2025-01-03 12:01:35,716 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:37,239 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:44,111 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:45,634 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:47,013 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:48,086 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:49,046 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:50,074 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:51,295 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:52,285 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:53,187 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:54,436 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:55,785 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:56,800 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:01:58,026 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:02:00,815 - INFO - 127.0.0.1 - - [03/Jan/2025 12:02:00] "POST /Chat HTTP/1.1" 200 -
+2025-01-03 12:03:02,677 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentZeroShot.py', reloading
+2025-01-03 12:03:02,678 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentZeroShot.py', reloading
+2025-01-03 12:03:02,679 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentZeroShot.py', reloading
+2025-01-03 12:03:03,392 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 12:03:09,103 - WARNING -  * Debugger is active!
+2025-01-03 12:03:09,136 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 12:03:11,613 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentZeroShot.py', reloading
+2025-01-03 12:03:11,615 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentZeroShot.py', reloading
+2025-01-03 12:03:11,615 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentZeroShot.py', reloading
+2025-01-03 12:03:12,991 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 12:03:18,094 - WARNING -  * Debugger is active!
+2025-01-03 12:03:18,119 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 12:03:20,154 - INFO - 127.0.0.1 - - [03/Jan/2025 12:03:20] "OPTIONS /Chat HTTP/1.1" 200 -
+2025-01-03 12:03:22,703 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:03:25,543 - INFO - 127.0.0.1 - - [03/Jan/2025 12:03:25] "POST /Chat HTTP/1.1" 200 -
+2025-01-03 12:03:56,533 - INFO - 127.0.0.1 - - [03/Jan/2025 12:03:56] "OPTIONS /Chat HTTP/1.1" 200 -
+2025-01-03 12:03:59,810 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:04:12,826 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:04:15,608 - INFO - 127.0.0.1 - - [03/Jan/2025 12:04:15] "POST /Chat HTTP/1.1" 200 -
+2025-01-03 12:05:20,815 - INFO - 127.0.0.1 - - [03/Jan/2025 12:05:20] "OPTIONS /Chat HTTP/1.1" 200 -
+2025-01-03 12:05:25,079 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:05:38,796 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 12:05:41,843 - INFO - 127.0.0.1 - - [03/Jan/2025 12:05:41] "POST /Chat HTTP/1.1" 200 -
+2025-01-03 12:09:59,883 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentZeroShot.py', reloading
+2025-01-03 12:09:59,885 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentZeroShot.py', reloading
+2025-01-03 12:10:01,732 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 12:10:08,277 - WARNING -  * Debugger is active!
+2025-01-03 12:10:08,304 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 12:11:37,190 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\psycopg2\\__init__.py', reloading
+2025-01-03 12:11:37,836 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 12:11:43,597 - WARNING -  * Debugger is active!
+2025-01-03 12:11:43,613 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 12:48:53,131 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\_base_client.py', reloading
+2025-01-03 12:48:53,148 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\httpx\\_client.py', reloading
+2025-01-03 12:48:53,148 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\httpx\\_transports\\default.py', reloading
+2025-01-03 12:48:53,149 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\httpcore\\_sync\\connection_pool.py', reloading
+2025-01-03 12:48:53,150 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\httpcore\\_sync\\connection.py', reloading
+2025-01-03 12:48:53,150 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\httpcore\\_sync\\http11.py', reloading
+2025-01-03 12:48:53,150 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\httpcore\\_backends\\sync.py', reloading
+2025-01-03 12:48:53,151 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\ssl.py', reloading
+2025-01-03 12:48:55,113 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 12:48:59,191 - WARNING -  * Debugger is active!
+2025-01-03 12:48:59,230 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 12:51:26,688 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\BasicToolAgent.py', reloading
+2025-01-03 12:51:26,707 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\CodeAgentMemory.py', reloading
+2025-01-03 12:51:26,720 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\Planer.py', reloading
+2025-01-03 12:51:27,736 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 12:51:32,144 - WARNING -  * Debugger is active!
+2025-01-03 12:51:32,164 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 12:53:51,727 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\__init__.py', reloading
+2025-01-03 12:53:51,728 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_community\\chat_models\\__init__.py', reloading
+2025-01-03 12:53:51,728 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain\\tools\\__init__.py', reloading
+2025-01-03 12:53:51,729 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain\\agents\\__init__.py', reloading
+2025-01-03 12:53:51,729 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain\\llms\\__init__.py', reloading
+2025-01-03 12:53:51,730 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain\\memory\\__init__.py', reloading
+2025-01-03 12:53:51,730 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_openai\\__init__.py', reloading
+2025-01-03 12:53:51,731 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\matplotlib\\pyplot.py', reloading
+2025-01-03 12:53:51,734 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_community\\tools\\__init__.py', reloading
+2025-01-03 12:53:51,735 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain\\callbacks\\base.py', reloading
+2025-01-03 12:53:51,737 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_community\\utilities\\__init__.py', reloading
+2025-01-03 12:53:51,738 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pgvector\\psycopg2\\__init__.py', reloading
+2025-01-03 12:53:51,739 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\__init__.py', reloading
+2025-01-03 12:53:51,745 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\_api\\__init__.py', reloading
+2025-01-03 12:53:51,746 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\tools\\__init__.py', reloading
+2025-01-03 12:53:51,746 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_community\\__init__.py', reloading
+2025-01-03 12:53:51,747 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\matplotlib\\backends\\__init__.py', reloading
+2025-01-03 12:53:51,748 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\tools\\base.py', reloading
+2025-01-03 12:53:51,748 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\tools\\simple.py', reloading
+2025-01-03 12:53:51,749 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\PIL\\__init__.py', reloading
+2025-01-03 12:53:51,749 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\callbacks\\__init__.py', reloading
+2025-01-03 12:53:51,749 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\messages\\__init__.py', reloading
+2025-01-03 12:53:51,750 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\PIL\\Image.py', reloading
+2025-01-03 12:53:51,750 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\runnables\\__init__.py', reloading
+2025-01-03 12:53:51,750 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\numpy\\typing\\__init__.py', reloading
+2025-01-03 12:53:51,751 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\v1\\__init__.py', reloading
+2025-01-03 12:53:51,751 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\messages\\tool.py', reloading
+2025-01-03 12:53:51,751 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\runnables\\config.py', reloading
+2025-01-03 12:53:51,752 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\runnables\\utils.py', reloading
+2025-01-03 12:53:51,753 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\utils\\pydantic.py', reloading
+2025-01-03 12:53:51,754 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\matplotlib\\typing.py', reloading
+2025-01-03 12:53:51,754 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\runnables\\base.py', reloading
+2025-01-03 12:53:51,755 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\numpy\\_typing\\__init__.py', reloading
+2025-01-03 12:53:51,756 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\_api\\beta_decorator.py', reloading
+2025-01-03 12:53:51,756 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\load\\serializable.py', reloading
+2025-01-03 12:53:51,758 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\numpy\\_utils\\__init__.py', reloading
+2025-01-03 12:53:51,758 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+2025-01-03 12:53:51,758 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\numpy\\_typing\\_nbit.py', reloading
+2025-01-03 12:53:51,759 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py', reloading
+2025-01-03 12:53:51,759 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_openai\\chat_models\\__init__.py', reloading
+2025-01-03 12:53:51,759 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\numpy\\_typing\\_shape.py', reloading
+2025-01-03 12:53:51,760 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py', reloading
+2025-01-03 12:53:51,760 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+2025-01-03 12:53:51,760 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_openai\\chat_models\\base.py', reloading
+2025-01-03 12:53:51,762 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\matplotlib\\backends\\registry.py', reloading
+2025-01-03 12:53:51,762 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\language_models\\__init__.py', reloading
+2025-01-03 12:53:51,763 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\utils\\__init__.py', reloading
+2025-01-03 12:53:51,764 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\utils\\utils.py', reloading
+2025-01-03 12:53:51,765 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\httpx\\__init__.py', reloading
+2025-01-03 12:53:51,765 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\caches.py', reloading
+2025-01-03 12:53:51,766 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\re.py', reloading
+2025-01-03 12:53:51,766 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\decimal.py', reloading
+2025-01-03 12:53:51,766 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\language_models\\base.py', reloading
+2025-01-03 12:53:51,766 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\prompt_values.py', reloading
+2025-01-03 12:53:51,768 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\rate_limiters.py', reloading
+2025-01-03 12:53:51,769 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\typing.py', reloading
+2025-01-03 12:53:51,770 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\fields.py', reloading
+2025-01-03 12:53:51,770 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\_migration.py', reloading
+2025-01-03 12:53:51,771 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\urllib\\parse.py', reloading
+2025-01-03 12:53:51,771 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic_core\\__init__.py', reloading
+2025-01-03 12:53:51,772 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic_core\\core_schema.py', reloading
+2025-01-03 12:53:51,772 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\subprocess.py', reloading
+2025-01-03 12:53:51,773 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\_internal\\_generate_schema.py', reloading
+2025-01-03 12:53:51,773 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\tempfile.py', reloading
+2025-01-03 12:53:51,775 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\aliases.py', reloading
+2025-01-03 12:53:51,775 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\config.py', reloading
+2025-01-03 12:53:51,776 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\errors.py', reloading
+2025-01-03 12:53:51,776 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\functional_validators.py', reloading
+2025-01-03 12:53:51,778 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\main.py', reloading
+2025-01-03 12:53:51,779 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\networks.py', reloading
+2025-01-03 12:53:51,780 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\types.py', reloading
+2025-01-03 12:53:51,780 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\deprecated\\tools.py', reloading
+2025-01-03 12:53:51,781 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\_internal\\_decorators.py', reloading
+2025-01-03 12:53:51,782 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\_internal\\_generics.py', reloading
+2025-01-03 12:53:51,783 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\_internal\\_model_construction.py', reloading
+2025-01-03 12:53:51,783 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\_internal\\_repr.py', reloading
+2025-01-03 12:53:51,784 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\annotated_types\\__init__.py', reloading
+2025-01-03 12:53:51,784 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\_internal\\_internal_dataclass.py', reloading
+2025-01-03 12:53:51,786 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\messages\\base.py', reloading
+2025-01-03 12:53:51,787 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\messages\\utils.py', reloading
+2025-01-03 12:53:51,788 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\exceptions.py', reloading
+2025-01-03 12:53:51,790 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain\\agents\\agent_types.py', reloading
+2025-01-03 12:53:51,791 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain\\agents\\initialize.py', reloading
+2025-01-03 12:53:51,791 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain\\_api\\deprecation.py', reloading
+2025-01-03 12:53:51,792 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain\\memory\\buffer.py', reloading
+2025-01-03 12:53:51,792 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain\\memory\\chat_memory.py', reloading
+2025-01-03 12:53:51,794 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\callbacks\\base.py', reloading
+2025-01-03 12:53:51,795 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\agents.py', reloading
+2025-01-03 12:53:51,796 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\memory.py', reloading
+2025-01-03 12:53:51,797 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_core\\chat_history.py', reloading
+2025-01-03 12:53:51,798 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\v1\\error_wrappers.py', reloading
+2025-01-03 12:53:51,799 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\v1\\errors.py', reloading
+2025-01-03 12:53:51,799 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\v1\\main.py', reloading
+2025-01-03 12:53:51,800 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\v1\\networks.py', reloading
+2025-01-03 12:53:51,801 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\v1\\tools.py', reloading
+2025-01-03 12:53:51,802 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\v1\\types.py', reloading
+2025-01-03 12:53:51,803 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\v1\\utils.py', reloading
+2025-01-03 12:53:51,804 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\logging\\__init__.py', reloading
+2025-01-03 12:53:51,805 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_community\\tools\\ddg_search\\tool.py', reloading
+2025-01-03 12:53:51,805 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_community\\tools\\shell\\tool.py', reloading
+2025-01-03 12:53:51,805 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_community\\tools\\wikipedia\\tool.py', reloading
+2025-01-03 12:53:51,805 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_community\\utilities\\wikipedia.py', reloading
+2025-01-03 12:53:51,806 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-01-03 12:53:51,808 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\os.py', reloading
+2025-01-03 12:53:51,811 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-01-03 12:53:51,812 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\flask\\app.py', reloading
+2025-01-03 12:53:51,813 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-01-03 12:53:51,813 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-01-03 12:53:51,813 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-01-03 12:53:51,814 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-01-03 12:53:51,814 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-01-03 12:53:51,815 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-01-03 12:53:51,816 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-01-03 12:53:51,818 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-01-03 12:53:51,819 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-01-03 12:53:51,820 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-01-03 12:53:51,821 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-01-03 12:53:51,822 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-01-03 12:53:51,824 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\langchain_community\\utilities\\duckduckgo_search.py', reloading
+2025-01-03 12:53:51,824 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\_types.py', reloading
+2025-01-03 12:53:51,825 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\_utils\\__init__.py', reloading
+2025-01-03 12:53:51,825 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\_client.py', reloading
+2025-01-03 12:53:51,826 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\_models.py', reloading
+2025-01-03 12:53:51,826 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\_constants.py', reloading
+2025-01-03 12:53:51,828 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\_utils\\_logs.py', reloading
+2025-01-03 12:53:51,829 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\lib\\_old_api.py', reloading
+2025-01-03 12:53:51,830 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\resources\\__init__.py', reloading
+2025-01-03 12:53:51,830 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\_streaming.py', reloading
+2025-01-03 12:53:51,831 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\_compat.py', reloading
+2025-01-03 12:53:51,832 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\httpx\\_config.py', reloading
+2025-01-03 12:53:51,834 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\httpx\\_urls.py', reloading
+2025-01-03 12:53:51,835 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\resources\\embeddings.py', reloading
+2025-01-03 12:53:51,835 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\_resource.py', reloading
+2025-01-03 12:53:51,836 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\types\\embedding_model.py', reloading
+2025-01-03 12:53:51,836 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\types\\create_embedding_response.py', reloading
+2025-01-03 12:53:51,837 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\openai\\types\\embedding.py', reloading
+2025-01-03 12:53:51,837 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\pydantic\\generics.py', reloading
+2025-01-03 12:53:51,839 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\platform.py', reloading
+2025-01-03 12:53:51,847 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\flask\\blueprints.py', reloading
+2025-01-03 12:53:51,850 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\flask\\sansio\\blueprints.py', reloading
+2025-01-03 12:53:53,187 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 12:53:57,233 - WARNING -  * Debugger is active!
+2025-01-03 12:53:57,251 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 12:58:20,963 - INFO -  * Detected change in 'C:\\Users\\vedan\\anaconda3\\envs\\VisionAI\\Lib\\site-packages\\requests\\__init__.py', reloading
+2025-01-03 12:58:22,505 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 12:58:26,180 - WARNING -  * Debugger is active!
+2025-01-03 12:58:26,212 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 12:58:57,026 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\BasicToolAgent.py', reloading
+2025-01-03 12:58:57,982 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 12:59:02,028 - WARNING -  * Debugger is active!
+2025-01-03 12:59:02,047 - INFO -  * Debugger PIN: 101-414-096
+2025-01-03 13:10:08,698 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\SearchAgentDuck.py', reloading
+2025-01-03 13:10:08,714 - INFO -  * Detected change in 'c:\\Users\\vedan\\Desktop\\Parul Uni Hackathon\\Agents\\SearchAgentDuck.py', reloading
+2025-01-03 13:10:09,804 - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-03 13:27:14,836 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:27:17,731 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:27:18,470 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-03 13:27:20,512 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:27:20,947 - INFO - response: https://html.duckduckgo.com/html 202 14258
+2025-01-03 13:27:20,947 - INFO - Error to search using html backend: https://html.duckduckgo.com/html 202 Ratelimit
+2025-01-03 13:27:23,145 - INFO - response: https://www.ecosia.org/search?q=common+locations+of+temporary+files+on+Windows+10 200 216820
+2025-01-03 13:27:33,498 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:27:35,175 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:27:38,835 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:27:42,703 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:33:01,831 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:33:08,329 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:33:13,812 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:33:19,511 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:33:24,254 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:33:41,420 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:33:44,669 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:33:47,423 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:33:51,625 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-03 13:33:54,328 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
